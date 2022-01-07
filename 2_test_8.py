@@ -1,0 +1,10 @@
+num = int(input())
+one =  num // 100
+two = (num // 10) % 10
+three = num % 10
+print(one, two, three, sep='')
+print(one, three, two, sep='')
+print(two, one, three, sep='')
+print(two, three, one, sep='')
+print(three, one, two, sep='')
+print(three, two, one, sep='')
